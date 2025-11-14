@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Simulation outputs
+*.png
+*.pdf
+
+# STM32CubeIDE
+.metadata/
+.settings/
+.project
+.cproject
+
+# Debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
